@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw_data_files
+    tables:
+      - name: source1
+        description: "placeholder description"
+      - name: source2
+        description: "placeholder description"
+      - name: source3
+        description: "placeholder description"
+      - name: salesforce_leads
+        description: "placeholder description"
+       

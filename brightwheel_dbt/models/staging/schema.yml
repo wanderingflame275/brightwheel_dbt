@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: stg_source1
+    description: "todo"
+    # columns:
+
+  - name: stg_source2
+    description: "todo"
+    # columns:
+
+  - name: stg_source3
+    description: "todo"
+    # columns:
+
+  - name: stg_salesforce_leads
+    description: "todo"
+    # columns:
