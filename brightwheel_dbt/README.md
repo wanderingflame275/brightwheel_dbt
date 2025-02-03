@@ -17,7 +17,7 @@ If this can't be accomplished, a failsafe to make sure bad data does not taint f
 
 ### **How you explored the data**
 
-Both visually and through DuckDB. DuckDB let me run SELECTs against the downloaded raw files on my machine, and visually I got a sense of the granularity of each provided source file.
+Both visually (staring at the raw data in Google Sheets) and through DuckDB. DuckDB let me run SELECTs against the downloaded raw files on my machine, and visually I got a sense of the granularity of each provided source file.
 
 ### **Testing/data validation**
 
