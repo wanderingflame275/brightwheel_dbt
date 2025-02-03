@@ -1,2 +1,2 @@
 # brightwheel_dbt
-Riffing with dbt.
+See the `brightwheel_dbt` subdirectory for the dbt project.
