@@ -32,5 +32,6 @@ select
   aa4,
   "License Monitoring Since" as license_monitoring_since,
   "School Year Only" as school_year_only,
-  "Evening Hours" as evening_hours
+  "Evening Hours" as evening_hours,
+  _loaded_at
 from {{ source('raw', 'source2') }}

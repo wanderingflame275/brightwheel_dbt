@@ -22,5 +22,6 @@ select
   infant,
   toddler,
   preschool,
-  school
+  school,
+  _loaded_at
 from {{ source('raw', 'source3') }}

@@ -15,5 +15,6 @@ select
   phone,
   "First Issue Date" as first_issue_date,
   "Primary Contact Name" as primary_contact_name,
-  "Primary Contact Role" as primary_contact_role 
+  "Primary Contact Role" as primary_contact_role,
+  _loaded_at
 from {{ source('raw', 'source1') }}

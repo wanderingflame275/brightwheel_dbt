@@ -32,5 +32,6 @@ select
   current_enrollment_c,
   capacity_c,
   lead_source_last_updated_c,
-  brightwheel_school_uuid_c
+  brightwheel_school_uuid_c,
+  _loaded_at
 from {{ source('raw', 'salesforce_leads') }}
